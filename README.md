@@ -2,7 +2,7 @@
 
 This repository serves as my personal portfolio, showcasing my projects, achievements, and skills as a software developer. It provides an overview of my expertise and serves as a hub for potential collaborators and employers to explore my work. Feel free to browse through the projects and get in touch if you have any questions or opportunities for collaboration.
 
-[Visit my Portfolio](https://bakchisuraj.github.io/)
+[Visit my Portfolio](https://bakchisuraj.github.io/my_portfolio/)
 
 ## Features
 
