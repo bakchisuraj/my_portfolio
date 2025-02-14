@@ -54,3 +54,32 @@ sr.reveal('.home__data, .about__img, .skills__subtitle, .skills__text',{});
 sr.reveal('.home__img, .about__subtitle, .about__text, .skills__img',{delay: 400}); 
 sr.reveal('.home__social-icon',{ interval: 200}); 
 sr.reveal('.skills-card, .project-card, .contact__input, .stats_card, .contact_tag',{interval: 200}); 
+
+
+
+
+document.getElementById('resume-button-1').addEventListener("click", () => {
+    window.open("https://drive.google.com/file/d/1yMEhl-WY8m58GrdB7ew8mipzYb05OA8X/view?usp=sharing", "_blank");
+    setTimeout(() => {
+        const a = document.createElement("a");
+        a.href = "https://drive.google.com/uc?export=download&id=1yMEhl-WY8m58GrdB7ew8mipzYb05OA8X";
+        a.download = "Resume.pdf"; 
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+    }, 500); 
+});
+
+
+document.getElementById('resume-button-2').addEventListener("click", () => {
+    window.open("https://drive.google.com/file/d/1yMEhl-WY8m58GrdB7ew8mipzYb05OA8X/view?usp=sharing", "_blank");
+    setTimeout(() => {
+        const a = document.createElement("a");
+        a.href = "https://drive.google.com/uc?export=download&id=1yMEhl-WY8m58GrdB7ew8mipzYb05OA8X";
+        a.download = "Resume.pdf"; 
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+    }, 500); 
+});
+
